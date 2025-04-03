@@ -2,10 +2,22 @@
 
 ## Setup
 1. Install Docker
-2. Clone this repository
-3. Run `docker-compose up --build -d` in the terminal
-4. Access the application at `http://localhost:3001`
-5. To stop the application, run `docker-compose down`
+2. Install node.js `for linux`, use the following command:
+    ```bash
+    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+    ```
+   or run below script:
+    ```bash
+     chmod +x nodejs_download.sh
+    ./nodejs_download.sh
+    ```
+3. Install docker-compose
+
+4. Clone this repository
+5. Run `docker-compose up --build -d` in the terminal
+6. Access the application at `http://localhost:3001`
+7. To stop the application, run `docker-compose down`
 
 ## Nginx Configuration
 - The Nginx configuration file is located at `nginx/default.conf`
