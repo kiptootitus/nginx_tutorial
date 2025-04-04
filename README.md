@@ -1,4 +1,4 @@
-# Nginx_tutorial
+# Nginx_tutorial with docker, docker-compose
 
 ## Setup
 1. Install Docker
